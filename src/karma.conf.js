@@ -11,7 +11,8 @@ module.exports = function (config) {
       require('karma-html-reporter'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
-      require('@angular-devkit/build-angular/plugins/karma')
+      require('@angular-devkit/build-angular/plugins/karma'),
+      require('karma-junit-reporter')
     ],
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
@@ -21,9 +22,12 @@ module.exports = function (config) {
       reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },
-    reporters: ['progress', 'html', 'kjhtml'],
+    reporters: ['progress', 'html', 'kjhtml','junit'],
     htmlReporter: {
       outputDir: 'test-results', // where to put the reports
+    },
+    junitReporter: {
+      outputDir: 'target/surefire-reports/', // where to put the reports
     },
     port: 9876,
     colors: true,

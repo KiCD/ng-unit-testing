@@ -37,3 +37,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/target/surefire-reports/TESTS-HeadlessChrome_67.0.3396_(Windows_10.0.0).xml
+test-results/HeadlessChrome 67.0.3396 (Windows 10.0.0)/index.html
