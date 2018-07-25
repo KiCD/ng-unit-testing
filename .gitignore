@@ -39,3 +39,5 @@ testem.log
 Thumbs.db
 src/target/surefire-reports/TESTS-HeadlessChrome_67.0.3396_(Windows_10.0.0).xml
 test-results/HeadlessChrome 67.0.3396 (Windows 10.0.0)/index.html
+src/target/surefire-reports/TESTS-Chrome_67.0.3396_(Windows_10.0.0).xml
+test-results/Chrome 67.0.3396 (Windows 10.0.0)/index.html
