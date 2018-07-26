@@ -27,7 +27,7 @@ module.exports = function (config) {
       outputDir: 'test-results', // where to put the reports
     },
     junitReporter: {
-      outputDir: 'test-results/surefire-reports/', // where to put the reports
+      outputDir: 'target/surefire-reports', // where to put the reports
     },
     port: 9876,
     colors: true,
